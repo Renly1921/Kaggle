@@ -1,0 +1,19 @@
+本次练习尝试用最简单的KNN算法实现 Digit Recorgnizaer
+
+运行环境使用的是Kaggle的kernel：
+https://www.kaggle.com/renly1921/kernelea6c5ffbfe
+
+参考文档：
+https://blog.csdn.net/u012162613/article/details/41929171
+
+总结：
+采用欧氏距离来计算，K值为5时，准确率达到96.4%，计算时间大约5~6个小时
+
+其他：
+KNN的算法和原理都很简单，可以选用不同的是距离计算公式，欧氏距离的实现最为简单，核心代码很好理解。
+对于Python的序列实现矩阵的操作花费了较多的时间，学习了numpy和csv两个模块的一些简单操作。
+Python没有使用类的概念，还是用逻辑函数的方式实现。
+由于是第一次尝试Kaggle，环境的调试也花费了很多时间：
+    Kaggle的运行kernel很不错，可以节省大量本地运行的时间，但是调试代码很不方便，所以还是在本地搭建了环境，用少量的数据学习，代码调试成功后才上传到Kaggle
+    Kernel的输入文件为只读，不可更改，所以一旦commit，就是好几个小时才看到结果，还可能是failed的，然后在线修改代码，对读取的数据只取少量来学习，以便快速出结果
+    输出文件会在Kaggle的kernel里自动创建output文件夹。
